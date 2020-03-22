@@ -1,0 +1,22 @@
+{
+    "classes": {
+        "classifier": "MaxentClassifier", 
+        "features": "ProductFeatures"
+    }, 
+    "paths": {
+        "info": "fixtures/info-2018-23-07.json", 
+        "model": "fixtures/model-2018-23-07.pickle"
+    }, 
+    "finished": "Mon Jul 23 18:15:32 2018", 
+    "version": "1.0.0", 
+    "started": "Mon Jul 23 16:36:44 2018", 
+    "corpus": "/home/drone/Documents/product-classifier/corpus-brand.csv", 
+    "validated": true, 
+    "timer": {
+        "training": 5775.385999917984, 
+        "validation": 148.614403963089, 
+        "build": 5928.163625001907, 
+        "features": 1.8679981231689453
+    }, 
+    "accuracy": 0.2787678767876788
+}

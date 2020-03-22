@@ -1,0 +1,20 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": true,
+  "hostname": "ec2-52-204-51-163.compute-1.amazonaws.com",
+  "port": "22",
+  "target": "/home/nuwanarti/product-classifier",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**",
+    "node_modules/**"
+  ],
+  "username": "nuwanarti",
+  "keyfile": "/Users/rt/.ssh/key",
+  "watch": [],
+  "transport": "scp"
+}

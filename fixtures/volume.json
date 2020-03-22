@@ -1,0 +1,22 @@
+{
+    "classes": {
+        "classifier": "MaxentClassifier", 
+        "features": "ProductFeatures"
+    }, 
+    "paths": {
+        "info": "./fixtures/volume/info-2018-05-09.json", 
+        "model": "./fixtures/volume/model-2018-05-09.pickle"
+    }, 
+    "finished": "Wed Sep 05 04:24:35 2018", 
+    "version": "1.0.0", 
+    "started": "Wed Sep 05 04:24:22 2018", 
+    "corpus": "./corpus-volume.csv", 
+    "validated": true, 
+    "timer": {
+        "training": 11.481910943984985, 
+        "validation": 0.36299896240234375, 
+        "build": 13.673563003540039, 
+        "features": 1.8116350173950195
+    }, 
+    "accuracy": 0.6555555555555556
+}
